@@ -1,0 +1,176 @@
+.tarbar.data-v-063c35ff {
+  width: 100%;
+  height: 168rpx;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  padding-top: 16rpx;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  box-shadow: 3px 4px 7px 2px rgba(100, 100, 100, 0.2);
+}
+.tarbar .tarbarItem.data-v-063c35ff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.tarbar .tarbarItem .tarbarIcon.data-v-063c35ff {
+  width: 72rpx;
+  height: 72rpx;
+  margin-bottom: 4rpx;
+}
+.tarbar .tarbarItem .name.data-v-063c35ff {
+  font-size: 28rpx;
+  color: #999999;
+}
+.tarbar .tarbarItem .active.data-v-063c35ff {
+  color: #3173FF;
+}
+
+.my .title.data-v-4dcceeb0 {
+  font-size: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22rpx 40rpx;
+  box-sizing: border-box;
+}
+.my .title .merchantName.data-v-4dcceeb0 {
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.my .my_content.data-v-4dcceeb0 {
+  padding: 0 24rpx;
+  box-sizing: border-box;
+}
+.my .my_content .user_info.data-v-4dcceeb0 {
+  position: relative;
+  color: #FFFFFF;
+  padding: 40rpx;
+  box-sizing: border-box;
+  display: flex;
+}
+.my .my_content .user_info .hidewhile.data-v-4dcceeb0 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.my .my_content .user_info .info_bg.data-v-4dcceeb0 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.my .my_content .user_info .user_Img.data-v-4dcceeb0 {
+  width: 180rpx;
+  height: 180rpx;
+  flex-shrink: 0;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.my .my_content .user_info .info.data-v-4dcceeb0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.my .my_content .user_info .info .info_top.data-v-4dcceeb0 {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.my .my_content .user_info .info .info_top .userName.data-v-4dcceeb0 {
+  font-size: 56rpx;
+  max-width: 63%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: 10rpx;
+  flex-shrink: 0;
+}
+.my .my_content .user_info .info .info_top .roleName.data-v-4dcceeb0 {
+  font-size: 36rpx;
+  max-width: 36%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.my .my_content .order.data-v-4dcceeb0 {
+  color: #636465;
+  box-shadow: 3px 2px 7px 2px rgba(100, 100, 100, 0.2);
+  display: flex;
+  padding: 22rpx 0;
+  margin-top: 40rpx;
+}
+.my .my_content .order .order_item.data-v-4dcceeb0 {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+.my .my_content .order .order_item.data-v-4dcceeb0:not(:last-child)::after {
+  content: '';
+  width: 1px;
+  height: 70%;
+  background-color: #EDEEF2;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+.my .my_content .order .order_item .order_number.data-v-4dcceeb0 {
+  font-size: 36rpx;
+}
+.my .my_content .order .order_item .order_text.data-v-4dcceeb0 {
+  font-size: 24rpx;
+}
+.my .my_content .tool.data-v-4dcceeb0 {
+  margin-top: 40rpx;
+}
+.my .my_content .tool .toolList.data-v-4dcceeb0 {
+  display: flex;
+}
+.my .my_content .tool .toolList .tool_item.data-v-4dcceeb0 {
+  font-size: 24rpx;
+  color: #636465;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my .my_content .tool .toolList .tool_item .tool_icon.data-v-4dcceeb0 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-bottom: 24rpx;
+}
+.my .my_content .item_title.data-v-4dcceeb0 {
+  color: #141414;
+  font-size: 36rpx;
+  margin-bottom: 32rpx;
+}
+.my .my_content .grayline.data-v-4dcceeb0 {
+  height: 26rpx;
+  background-color: #F7F8FB;
+  margin: 32rpx -24rpx;
+}
+.my .my_content .loginOut.data-v-4dcceeb0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my .my_content .loginOut .loginOut_btn.data-v-4dcceeb0 {
+  margin-top: 40rpx;
+  padding: 20rpx 60rpx;
+  border-radius: 80rpx;
+  font-size: 36rpx;
+  color: #ffffff;
+  background: linear-gradient(180deg, #266DFF 0%, rgba(38, 109, 255, 0.69) 100%);
+}
+

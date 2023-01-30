@@ -1,0 +1,105 @@
+
+page{
+	background-color: #F7F8FB;
+}
+
+.income .topTool.data-v-39548d7a {
+  width: 750rpx;
+  height: 460rpx;
+  position: relative;
+}
+.income .topTool .topImg.data-v-39548d7a {
+  width: 100%;
+  height: 100%;
+}
+.income .topTool .tool.data-v-39548d7a {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+.income .topTool .tool .icon.data-v-39548d7a {
+  width: 40rpx;
+  height: 40rpx;
+}
+.income .topTool .topTitle.data-v-39548d7a {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 32rpx;
+  color: #FFFFFF;
+}
+.income .content.data-v-39548d7a {
+  padding: 0 32rpx;
+  z-index: 50;
+  position: relative;
+}
+.income .content .content_box.data-v-39548d7a {
+  margin-top: -240rpx;
+  height: 75vh;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.income .content .content_box .user-wallet.data-v-39548d7a {
+  background-color: #FFFFFF;
+  padding: 66rpx 54rpx 34rpx 54rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.income .content .content_box .user-wallet .userInfo.data-v-39548d7a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 42rpx;
+  padding-bottom: 46rpx;
+  border-bottom: 1px solid #D8D8D8;
+}
+.income .content .content_box .user-wallet .userInfo .userInfo-left.data-v-39548d7a {
+  color: #121212;
+  font-size: 48rpx;
+  display: flex;
+  align-items: center;
+}
+.income .content .content_box .user-wallet .userInfo .userInfo-left .userImage.data-v-39548d7a {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 16rpx;
+}
+.income .content .content_box .user-wallet .userInfo .userInfo-right.data-v-39548d7a {
+  font-size: 24rpx;
+  color: #3D3D3D;
+}
+.income .content .content_box .user-wallet .incomeList .income_item.data-v-39548d7a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3D3D3D;
+}
+.income .content .content_box .user-wallet .incomeList .income_item .income_content.data-v-39548d7a {
+  margin-bottom: 32rpx;
+}
+.income .content .content_box .user-wallet .incomeList .income_item .income_content .content_title.data-v-39548d7a {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.income .content .content_box .user-wallet .incomeList .income_item .income_content .content_time.data-v-39548d7a {
+  font-size: 24rpx;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+  color: #979797;
+}
+.income .content .content_box .user-wallet .incomeList .income_item .content_money.data-v-39548d7a {
+  font-size: 36rpx;
+}
+.income .content .content_box .user-wallet .incomeList .income_item .content_money_light.data-v-39548d7a {
+  color: #FD0000;
+}
+

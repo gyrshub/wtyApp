@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/distribution/index",
+    "pages/order/index",
+    "pages/order/checkOrder",
+    "pages/my/index",
+    "pages/my/withdraw",
+    "pages/my/income",
+    "component/tarbar/tarbar"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "text": "工作台",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "分销",
+        "pagePath": "pages/distribution/index"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/index"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/index"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

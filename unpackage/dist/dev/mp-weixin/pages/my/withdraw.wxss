@@ -1,0 +1,121 @@
+
+page{
+	background-color: #F7F8FB;
+}
+
+.withdraw .topTool.data-v-72c931a4 {
+  width: 750rpx;
+  height: 460rpx;
+  position: relative;
+}
+.withdraw .topTool .topImg.data-v-72c931a4 {
+  width: 100%;
+  height: 100%;
+}
+.withdraw .topTool .tool.data-v-72c931a4 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+.withdraw .topTool .tool .icon.data-v-72c931a4 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.withdraw .topTool .topTitle.data-v-72c931a4 {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 32rpx;
+  color: #FFFFFF;
+}
+.withdraw .content.data-v-72c931a4 {
+  padding: 0 32rpx;
+  z-index: 50;
+  position: relative;
+}
+.withdraw .content .user-wallet.data-v-72c931a4 {
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  margin-top: -240rpx;
+  padding: 66rpx 54rpx 34rpx 54rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.withdraw .content .user-wallet .userInfo.data-v-72c931a4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64rpx;
+}
+.withdraw .content .user-wallet .userInfo .userInfo-left.data-v-72c931a4 {
+  color: #121212;
+  font-size: 48rpx;
+  display: flex;
+  align-items: center;
+}
+.withdraw .content .user-wallet .userInfo .userInfo-left .userImage.data-v-72c931a4 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 16rpx;
+}
+.withdraw .content .user-wallet .userInfo .userInfo-right.data-v-72c931a4 {
+  font-size: 24rpx;
+  color: #3D3D3D;
+}
+.withdraw .content .user-wallet .input_box.data-v-72c931a4 {
+  border-bottom: 1px solid #D8D8D8;
+  display: flex;
+  align-items: flex-end;
+}
+.withdraw .content .user-wallet .input_box .input_style.data-v-72c931a4 {
+  width: 60%;
+  text-align: center;
+  padding: 10rpx 20rpx;
+}
+.withdraw .content .user-wallet .input_btn.data-v-72c931a4 {
+  width: 250rpx;
+  text-align: center;
+  border-radius: 60rpx;
+  font-size: 48rpx;
+  color: #FFFFFF;
+  background-color: #3173FF;
+  padding: 4rpx 60rpx;
+  margin-top: 16rpx;
+  align-self: center;
+}
+.withdraw .content .annotation.data-v-72c931a4 {
+  margin-top: 48rpx;
+  color: #707070;
+  font-size: 26rpx;
+}
+.withdraw .content .annotation .annotation-title.data-v-72c931a4 {
+  font-size: 28rpx;
+  color: #121212;
+  position: relative;
+}
+.withdraw .content .annotation .annotation-title .annotation-text.data-v-72c931a4 {
+  position: relative;
+  z-index: 10;
+}
+.withdraw .content .annotation .annotation-title .underline.data-v-72c931a4 {
+  width: 100rpx;
+  height: 12rpx;
+  background-color: #3173FF;
+  border-radius: 20rpx;
+  position: absolute;
+  left: 8rpx;
+  bottom: 4rpx;
+  z-index: 8;
+}
+.withdraw .content .annotation .annotation-item.data-v-72c931a4 {
+  padding-left: 20rpx;
+  margin-top: 28rpx;
+}
+

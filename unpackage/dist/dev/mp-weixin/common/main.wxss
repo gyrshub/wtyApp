@@ -1,0 +1,70 @@
+/*每个页面公共css */
+image {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+.model {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: 1.9s modelshow ease normal;
+          animation: 1.9s modelshow ease normal;
+}
+.model .model_box {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: rgba(178, 178, 178, 0.75);
+  border-radius: 15px;
+}
+.model .model_box .model_img {
+  width: 100%;
+  height: 100%;
+}
+@keyframes modelshow {
+0% {
+    opacity: 0;
+}
+10% {
+    opacity: 1;
+}
+65% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes modelshow {
+0% {
+    opacity: 0;
+}
+10% {
+    opacity: 1;
+}
+65% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+.tarbarHeight {
+  height: 180rpx;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+
